@@ -1,0 +1,7 @@
+{
+  "input" : [
+	{ "item" : "tombthing4", "count" : 1 }
+  ],
+  "output" : { "item" : "protectedtombthing4", "count" : 1 },
+  "groups" : [ "containermodstation", "furniture", "objects", "all" ]
+}

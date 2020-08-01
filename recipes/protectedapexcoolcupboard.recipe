@@ -1,0 +1,7 @@
+{
+  "input" : [
+	{ "item" : "apexcoolcupboard", "count" : 1 }
+  ],
+  "output" : { "item" : "protectedapexcoolcupboard", "count" : 1 },
+  "groups" : [ "containermodstation", "furniture", "objects", "all" ]
+}

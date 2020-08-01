@@ -1,0 +1,7 @@
+{
+  "input" : [
+	{ "item" : "vendingmachine", "count" : 1 }
+  ],
+  "output" : { "item" : "protectedvendingmachine", "count" : 1 },
+  "groups" : [ "containermodstation", "furniture", "objects", "all" ]
+}

@@ -1,0 +1,7 @@
+{
+  "input" : [
+	{ "item" : "floranbookcase", "count" : 1 }
+  ],
+  "output" : { "item" : "protectedfloranbookcase", "count" : 1 },
+  "groups" : [ "containermodstation", "furniture", "objects", "all" ]
+}

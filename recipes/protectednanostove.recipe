@@ -1,0 +1,7 @@
+{
+  "input" : [
+	{ "item" : "nanostove", "count" : 1 }
+  ],
+  "output" : { "item" : "protectednanostove", "count" : 1 },
+  "groups" : [ "containermodstation", "furniture", "objects", "all" ]
+}

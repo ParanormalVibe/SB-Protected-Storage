@@ -1,0 +1,7 @@
+{
+  "input" : [
+	{ "item" : "shiplocker", "count" : 1 }
+  ],
+  "output" : { "item" : "protectedshiplocker", "count" : 1 },
+  "groups" : [ "containermodstation", "furniture", "objects", "all" ]
+}

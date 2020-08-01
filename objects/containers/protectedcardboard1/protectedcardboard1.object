@@ -1,0 +1,37 @@
+{
+  "objectName" : "protectedcardboard1",
+  "rarity" : "Common",
+  "objectType" : "container",
+  "category" : "storage",
+  "price" : 250,
+  "description" : "A cardboard box.",
+  "shortdescription" : "Protected Cardboard Box",
+  "race" : "generic",
+  "apexDescription" : "A cardboard box.",
+  "avianDescription" : "A cardboard box.",
+  "floranDescription" : "Cardboard box.",
+  "glitchDescription" : "Identify. A cardboard box.",
+  "humanDescription" : "A cardboard box.",
+  "hylotlDescription" : "A cardboard box.",
+  "inventoryIcon" : "protectedcardboard1icon.png",
+  "orientations" : [
+    {
+      "leftImage" : "protectedcardboard1left.png:default",
+      "rightImage" : "protectedcardboard1right.png:default",
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    }
+  ],
+  "openSounds" : [ "/sfx/objects/cardboardbox_open.wav" ],
+  "closeSounds" : [ "/sfx/objects/cardboardbox_close.wav" ],
+  "slotCount" : 9,
+  "uiConfig" : "/interface/chests/chest%slots%.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600,
+  "scripts" : [ "/scripts/protectedcontainer.lua" ],
+  "unbreakable" : true
+}

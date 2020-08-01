@@ -1,0 +1,7 @@
+{
+  "input" : [
+	{ "item" : "tribalwallcabinet", "count" : 1 }
+  ],
+  "output" : { "item" : "protectedtribalwallcabinet", "count" : 1 },
+  "groups" : [ "containermodstation", "furniture", "objects", "all" ]
+}

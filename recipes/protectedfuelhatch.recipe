@@ -1,0 +1,7 @@
+{
+  "input" : [
+	{ "item" : "fuelhatch", "count" : 1 }
+  ],
+  "output" : { "item" : "protectedfuelhatch", "count" : 1 },
+  "groups" : [ "containermodstation", "furniture", "objects", "all" ]
+}

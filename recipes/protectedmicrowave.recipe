@@ -1,0 +1,7 @@
+{
+  "input" : [
+	{ "item" : "microwave", "count" : 1 }
+  ],
+  "output" : { "item" : "protectedmicrowave", "count" : 1 },
+  "groups" : [ "containermodstation", "furniture", "objects", "all" ]
+}

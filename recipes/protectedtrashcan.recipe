@@ -1,0 +1,7 @@
+{
+  "input" : [
+	{ "item" : "trashcan", "count" : 1 }
+  ],
+  "output" : { "item" : "protectedtrashcan", "count" : 1 },
+  "groups" : [ "containermodstation", "furniture", "objects", "all" ]
+}

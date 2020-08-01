@@ -1,0 +1,7 @@
+{
+  "itemName" : "containerbreaker",
+  "rarity" : "Common",
+  "inventoryIcon" : "containerbreaker.png",
+  "description" : "Breaks protected containers. Boom! Haha!",
+  "shortdescription" : "Container Breaker"
+}

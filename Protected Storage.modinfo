@@ -1,0 +1,12 @@
+{
+  "name" : "Protected Storage",
+  "version" : "Beta v. Enraged Koala",
+  "path" : ".",
+  "metadata": {
+	"displayName" : "Protected Storage",
+    "author" : "Julyuary",
+    "description" : "Adds protected storage items to the game.",
+    "support_url" : "NA",
+	"version" : 1
+        }
+}

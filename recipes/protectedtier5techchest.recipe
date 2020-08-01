@@ -1,0 +1,7 @@
+{
+  "input" : [
+	{ "item" : "tier5techchest", "count" : 1 }
+  ],
+  "output" : { "item" : "protectedtier5techchest", "count" : 1 },
+  "groups" : [ "containermodstation", "furniture", "objects", "all" ]
+}

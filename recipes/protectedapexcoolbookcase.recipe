@@ -1,0 +1,7 @@
+{
+  "input" : [
+	{ "item" : "apexcoolbookcase", "count" : 1 }
+  ],
+  "output" : { "item" : "protectedapexcoolbookcase", "count" : 1 },
+  "groups" : [ "containermodstation", "furniture", "objects", "all" ]
+}

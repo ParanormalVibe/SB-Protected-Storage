@@ -1,0 +1,7 @@
+{
+  "input" : [
+	{ "item" : "medievalregister", "count" : 1 }
+  ],
+  "output" : { "item" : "protectedmedievalregister", "count" : 1 },
+  "groups" : [ "containermodstation", "furniture", "objects", "all" ]
+}

@@ -1,0 +1,33 @@
+{
+  "objectName" : "protectedtrashcan",
+  "rarity" : "Common",
+  "objectType" : "container",
+  "category" : "storage",
+  "price" : 150,
+  "description" : "A trash can. What a load of rubbish.",
+  "shortdescription" : "Protected Trash Can",
+  "race" : "glitch",
+  "apexDescription" : "A trash can.",
+  "avianDescription" : "A trash can.",
+  "floranDescription" : "Gaaaarbage day!",
+  "glitchDescription" : "Statement. A fellow Glitch... or a trash can.",
+  "humanDescription" : "A trash can.",
+  "hylotlDescription" : "A trash can.",
+  "inventoryIcon" : "protectedtrashcanicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "protectedtrashcan.png:default",
+      "imagePosition" : [-8, 0],
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+  "openSounds" : [ "/sfx/objects/chest_small_open.wav" ],
+  "closeSounds" : [ "/sfx/objects/chest_small_close.wav" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/chests/chest%slots%.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600,
+  "scripts" : [ "/scripts/protectedcontainer.lua" ],
+  "unbreakable" : true
+}

@@ -1,0 +1,6 @@
+{
+  "input" : [
+  ],
+  "output" : { "item" : "containerbreaker", "count" : 1 },
+  "groups" : [ "plain", "all" ]
+}

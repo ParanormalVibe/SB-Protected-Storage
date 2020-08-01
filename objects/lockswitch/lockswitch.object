@@ -1,0 +1,37 @@
+{
+  "objectName" : "lockswitch",
+  "rarity" : "Common",
+  "objectType" : "wire",
+  "description" : "Toggles nearby protected chests.",
+  "shortdescription" : "Storage Lock Switch",
+  "race" : "generic",
+
+  "floranDescription" : "Ssswitch!",
+  "glitchDescription" : "Statement. A small switch.",
+
+  "category" : "wire",
+  "price" : 300,
+
+  "inventoryIcon" : "lockswitchicon.png",
+  "orientations" : [
+    {
+      "image" : "lockswitch.png:<color>.false",
+      "imagePosition" : [-8, -8],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+
+  "scripts" : [ "/scripts/containerswitch.lua" ],
+  "scriptDelta" : 1,
+
+  "animation" : "switchtoggle.animation",
+
+  "animationParts" : {
+    "switch" : "lockswitch.png"
+  },
+  "animationPosition" : [-8, -8],
+
+  "interval" : 13
+}

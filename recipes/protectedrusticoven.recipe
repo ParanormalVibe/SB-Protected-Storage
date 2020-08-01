@@ -1,0 +1,7 @@
+{
+  "input" : [
+	{ "item" : "rusticoven", "count" : 1 }
+  ],
+  "output" : { "item" : "protectedrusticoven", "count" : 1 },
+  "groups" : [ "containermodstation", "furniture", "objects", "all" ]
+}

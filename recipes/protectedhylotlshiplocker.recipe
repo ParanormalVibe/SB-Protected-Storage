@@ -1,0 +1,7 @@
+{
+  "input" : [
+	{ "item" : "hylotlshiplocker", "count" : 1 }
+  ],
+  "output" : { "item" : "protectedhylotlshiplocker", "count" : 1 },
+  "groups" : [ "containermodstation", "furniture", "objects", "all" ]
+}

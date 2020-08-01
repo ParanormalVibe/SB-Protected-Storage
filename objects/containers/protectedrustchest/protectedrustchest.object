@@ -1,0 +1,34 @@
+{
+  "objectName" : "protectedrustchest",
+  "printable" : false,
+  "rarity" : "Common",
+  "objectType" : "container",
+  "category" : "storage",
+  "price" : 300,
+  "description" : "A rusty chest. Practically falling apart.",
+  "shortdescription" : "Protected Ice Chest",
+  "race" : "generic",
+  "apexDescription" : "This chest doesn't seem very sturdy.",
+  "avianDescription" : "Surely one could simply wait for this chest to fall apart.",
+  "floranDescription" : "Floran open ugly chessst.",
+  "glitchDescription" : "Sardonic. The rust here is perhaps a bigger deterrent for a Glitch than a lock could ever be.",
+  "humanDescription" : "A rusty chest. Maybe pirates left it here.",
+  "hylotlDescription" : "An old, crumbling chest.",
+  "inventoryIcon" : "protectedrustchesticon.png",
+  "orientations" : [
+    {
+      "dualImage" : "protectedrustchest.png:<color>.<key>",
+      "imagePosition" : [-8, 0],
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+  "openSounds" : [ "/sfx/objects/chest_small_open.wav" ],
+  "closeSounds" : [ "/sfx/objects/chest_small_close.wav" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/chests/chest%slots%.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600,
+  "scripts" : [ "/scripts/protectedcontainer.lua" ],
+  "unbreakable" : true
+}

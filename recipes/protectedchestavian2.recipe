@@ -1,0 +1,7 @@
+{
+  "input" : [
+	{ "item" : "chestavian2", "count" : 1 }
+  ],
+  "output" : { "item" : "protectedchestavian2", "count" : 1 },
+  "groups" : [ "containermodstation", "furniture", "objects", "all" ]
+}

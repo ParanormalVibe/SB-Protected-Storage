@@ -1,0 +1,8 @@
+{
+  "input" : [
+			 { "item" : "woodencraftingtable1", "count" : 1 },
+			 { "item" : "ironbar", "count" : 1 }
+  ],
+  "output" : { "item" : "containermodstation", "count" : 1 },
+  "groups" : [ "plain", "furniture", "objects", "all" ]
+}

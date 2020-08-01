@@ -1,0 +1,34 @@
+{
+  "objectName" : "protectedcrystalchest",
+  "printable" : false,
+  "rarity" : "Common",
+  "objectType" : "container",
+  "category" : "storage",
+  "price" : 300,
+  "description" : "A crystal chest. Perhaps the chest itself is the treasure?",
+  "shortdescription" : "Protected Crystal Chest",
+  "race" : "generic",
+  "apexDescription" : "A stunning crystal chest. This alone is a worthy find.",
+  "avianDescription" : "Whatever is in this chest must surely be impressive.",
+  "floranDescription" : "Floran like sssparkly chest.",
+  "glitchDescription" : "Analysis. This chest was once used to store potatoes.",
+  "humanDescription" : "I bet this chest has always contained the finest of riches.",
+  "hylotlDescription" : "A beautiful chest. Sparkles like the ocean.",
+  "inventoryIcon" : "protectedcrystalchesticon.png",
+  "orientations" : [
+    {
+      "dualImage" : "protectedcrystalchest.png:<color>.<key>",
+      "imagePosition" : [-8, 0],
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+  "openSounds" : [ "/sfx/objects/chest_small_open.wav" ],
+  "closeSounds" : [ "/sfx/objects/chest_small_close.wav" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/chests/chest%slots%.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600,
+  "scripts" : [ "/scripts/protectedcontainer.lua" ],
+  "unbreakable" : true
+}

@@ -1,0 +1,7 @@
+{
+  "input" : [
+	{ "item" : "cellchest", "count" : 1 }
+  ],
+  "output" : { "item" : "protectedcellchest", "count" : 1 },
+  "groups" : [ "containermodstation", "furniture", "objects", "all" ]
+}

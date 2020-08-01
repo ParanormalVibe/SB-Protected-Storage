@@ -1,0 +1,34 @@
+{
+  "objectName" : "protectedcellchest",
+  "printable" : false,
+  "rarity" : "Common",
+  "objectType" : "container",
+  "category" : "storage",
+  "price" : 300,
+  "description" : "A chest with a spherical lock.",
+  "shortdescription" : "Protected Cell Chest",
+  "race" : "generic",
+  "apexDescription" : "It has a metallic appearance, but it is actually made from organic material.",
+  "avianDescription" : "This chest looks almost too clean and shiny.",
+  "floranDescription" : "Its ssshiny, but it looks too ssstupid to interest Floran.",
+  "glitchDescription" : "Nervous. This chest somewhat resembles a Glitch.",
+  "humanDescription" : "I could imagine this chest containing scientific instruments.",
+  "hylotlDescription" : "A simple, but very effective design.",
+  "inventoryIcon" : "protectedcellchesticon.png",
+  "orientations" : [
+    {
+      "dualImage" : "protectedcellchest.png:<color>.<key>",
+      "imagePosition" : [-8, 0],
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+  "openSounds" : [ "/sfx/objects/chest_small_open.wav" ],
+  "closeSounds" : [ "/sfx/objects/chest_small_close.wav" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/chests/chest%slots%.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600,
+  "scripts" : [ "/scripts/protectedcontainer.lua" ],
+  "unbreakable" : true
+}

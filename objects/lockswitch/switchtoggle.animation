@@ -1,0 +1,41 @@
+{
+  "animatedParts" : {
+    "stateTypes" : {
+      "switchState" : {
+        "default" : "false",
+        "states" : {
+          "false" : {
+            "frames" : 1
+          },
+          "true" : {
+            "frames" : 1
+          }
+        }
+      }
+    },
+
+    "parts" : {
+      "switch" : {
+        "properties" : {
+          "centered" : false
+        },
+
+        "partStates" : {
+          "switchState" : {
+            "false" : {
+              "properties" : {
+                "image" : "<partImage>:<color>.false"
+              }
+            },
+
+            "true" : {
+              "properties" : {
+                "image" : "<partImage>:<color>.true"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
